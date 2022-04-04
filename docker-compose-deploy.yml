@@ -7,4 +7,4 @@ services:
   l2:
     image: somkiat/backend
     ports:
-      - "8888:80000"
+      - "8888:8000"
