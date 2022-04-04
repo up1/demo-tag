@@ -1,0 +1,10 @@
+version: "3" 
+services:
+  l1:
+    image: somkiat/frontend
+    ports:
+      - "9999:80"
+  l2:
+    image: somkiat/backend
+    ports:
+      - "8888:80000"
