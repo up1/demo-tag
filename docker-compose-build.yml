@@ -1,0 +1,8 @@
+version: "3" 
+services:
+  l1:
+    build: ./frontend
+    ports:
+      - "8000:5000"
+  l2:
+    build: ./backend
