@@ -1,8 +1,10 @@
 version: "3" 
 services:
   l1:
+    image: somkiat/frontend
     build: ./frontend
     ports:
       - "8000:5000"
   l2:
+    image: somkiat/backend
     build: ./backend
